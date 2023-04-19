@@ -18,7 +18,7 @@ function App() {
       className=" bg-gradient-to-r min-w-400 h-screen w-screen  text-white"
     >
       <header className=" p-6 flex justify-between py-5 w-auto">
-        <div className="flex items-center gap-3">
+        <div className="flex px-6 items-center gap-3">
           <div>
             <svg
               className="w-10 h-10 rotate-180"
@@ -36,7 +36,7 @@ function App() {
               />
             </svg>
           </div>
-          <div className="">Landing Page</div>
+          <div className="font-bold">Landing Page</div>
         </div>
         <div className="hidden mobile:flex flex items-center justify-center gap-3">
           <div className="p-2 z-10  hover:bg-white hover:text-black rounded-full cursor-pointer  transition-all duration-400">
